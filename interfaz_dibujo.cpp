@@ -6,10 +6,9 @@ void VentanaPolilinea(void);
 void VentanaCirculo(void);
 void VentanaPoligono(void);
 
-
 int main(void)
 {
-    int opcion = VentanaMenu();
+    int opcion;
     do {
         opcion = VentanaMenu();
         switch (opcion) {
